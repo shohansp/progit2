@@ -1,5 +1,6 @@
 #!/bin/bash
-
+Pull
+O
 # This is for running on Travis. It automatically tags any merge to Master as a release in the 2.1.x series.
 if [[ $TRAVIS_PULL_REQUEST != 'false' || "$TRAVIS_BRANCH" != 'master' ]]; then
   # Don't run on pull requests
